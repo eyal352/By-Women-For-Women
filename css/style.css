@@ -5,13 +5,18 @@
  */
 
 body {
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg-running-silouette.jpg') no-repeat center center fixed;
+    font-family: 'Roboto', sans-serif;
+    background: url('../img/bg-running-silouette%20purple.jpeg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     filter: blur();
+}
+
+.subtitle{
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1,
@@ -21,7 +26,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: font-family: 'Roboto', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -120,9 +125,9 @@ footer p {
         padding: 30px 0 10px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 5em;
-        font-weight: 700;
+        font-family: 'Amatic SC', cursive;
+        font-size: 9em;
+        font-weight: 900;
         line-height: normal;
         color: #fff;
     }
